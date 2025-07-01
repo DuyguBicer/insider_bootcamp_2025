@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol</title>
+</head>
+<body>
+    <h1>Hesap Oluştur</h1>
+    <form action="/submit" method="POST" >
+        <div>
+        <label for="name">Ad- Soyad: </label>
+        <input type="text" id="name" name="name"  placeholder="Tam adınızı yazınız..." />
+       
+        
+        </div><br/><br/><div>
+
+        <label for="email" >E-Posta: </label>
+        <input type="email" id="email" name="email" placeholder="E-postanızı yazınız..." required />
+        
+
+        </div><br/><br/><div>
+        
+        <label for="password" >Şifre: </label>
+        <input type="password" id="password" name="password" placeholder="Şifrenizi giriniz..." required/>
+        </div>
+            <br/>
+         <div>
+            <label for="password_repeat">Şifreyi Onayla:</label>
+            <input type="password" id="password_repeat" name="password" placeholder="Şifrenizi tekrar giriniz..." required/>
+        </div>
+        <br/><br/>
+        
+        <div>
+            <button type="submit">Hesap Oluştur</button>
+        </div>
+        <div>
+            <p>Zaten bir hesabın var mı? <a href="./login.html">Giriş Yap</a></p>
+        </div>
+    </form>
+</body>
+</html>
