@@ -1,0 +1,101 @@
+body {
+  box-sizing: border-box;
+  background-color:#c8cdd6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0px
+}
+form{
+  font-family: "Comic Relief", system-ui;
+  font-weight: 300;
+  font-style: thin;
+}
+
+
+.form-container {
+
+ background-color:rgb(231 233 238);
+ padding: 20px 70px;
+ border: solid rgb(92 124 134) 5px;
+ border-radius: 8px;
+ box-shadow: 5px 5px 5px 5px rgb(184, 173, 173);
+ width: 30vw;
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+
+}
+
+.title {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 900;
+  color: rgb(5, 5, 5);
+  text-align: center;
+}
+
+
+#signup2, #login2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+#signup {
+
+}
+
+input{
+    margin-top: 5px;;
+}
+
+.form-group {
+     display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+ .remember {
+    display: inline;
+ }
+
+a{
+    text-decoration: none;
+    color: rgb(0 127 230);
+}
+
+a:hover {
+    color: black;
+}
+
+.warning{
+    color: grey;
+}
+
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #385472;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056d2;
+}
