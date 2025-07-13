@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerçek Zamanlı Görev Yönetim 
+Uygulaması</title>
+    <link rel="stylesheet" href="./style3.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>GÖREV YÖNETİM UYGULAMASI</h1>
+        <form>
+            <label for="baslik">Görev Başlığı</label>
+            <input id="baslik" type="text" placeholder="Görev Başlığı" required/>
+            <label for="aciklama">Açıklama</label>
+            <textarea id="aciklama" placeholder="Açıklama (Opsiyonel)"></textarea>
+
+            <div class="oncelik">
+                <label class="oncelik-label">Öncelik:</label>
+                <label><input type="radio" name="oncelik" value="dusuk"/>Düşük</label>
+                <label><input type="radio" name="oncelik" value="orta"/>Orta</label>
+                <label><input type="radio" name="oncelik" value="yuksek"/>Yüksek</label>
+            </div>
+
+             <div class="tamamlandiMi">
+                <label>
+                <input type="checkbox" id="tamamlandiMi" />
+                Görev tamamlandı
+                </label>
+            </div>
+
+            <button type="submit">Görev Ekle</button>
+        </form>
+
+        <div class="kontroller">
+            <button id="filtreBtn">Tamamlananları Göster</button>
+            <button id="siralaBtn">Önceliğe Göre Sırala</button>
+        </div>
+
+        <ul id="gorevListesi"></ul>
+    </div>
+
+    <script src="script3.js"></script>
+    
+</body>
+</html>
