@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çalışanlar</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <h1>Çalışan Listesi</h1>
+     <table id="employeeTable">
+        <thead>
+            <tr>
+                <th>İsim</th>
+                <th>Yaş</th>
+                <th>Çalışma Süresi</th>
+                <th>Sil</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+
+    </table>
+
+    <h2>Yeni Çalışan Ekle</h2>
+     <form id="employeeForm">
+        <input type="text" id="nameInput" placeholder="İsim" required />
+        <input type="text" id="ageInput" placeholder="Yaş" required />
+        <input type="text" id="timeInput" placeholder="Çalışma Yılı" required />
+        <button type="submit">Ekle</button>
+     </form>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
