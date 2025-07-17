@@ -1,0 +1,38 @@
+body {
+    margin: 10px;
+    border: 1px solid rgb(239, 245, 169);
+    border-radius: 5px;
+}
+#loading {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#postList li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 5px;
+  
+}
+
+#postList li h3 {
+  margin: 0 0 5px;
+}
+
+#postList li p {
+  margin: 0;
+  color: #555;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(42, 36, 36);
+    background-color: rgb(239, 245, 169);
+    font-size: 3rem;
+    padding: 8px 8px;
+}
+
+li:nth-child(even) {
+    background-color: rgb(250, 253, 213);
+}
